@@ -5,6 +5,9 @@ using System.Text;
 
 namespace EmailConfigurator
 {
+    /// <summary>
+    /// Set this class to your smtp server options and then pass in to the Email.Send method.
+    /// </summary>
     public class Configuration
     {
         public string SmtpHost { get; set; }
